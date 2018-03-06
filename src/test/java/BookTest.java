@@ -17,4 +17,9 @@ public class BookTest {
     public void canGetGenre() {
         assertEquals(Genre.CRIME, book.getGenre());
     }
+
+    @Test
+    public void canGetGenreDescpription() {
+        assertEquals("Bad", book.getGenreFromEnum());
+    }
 }
